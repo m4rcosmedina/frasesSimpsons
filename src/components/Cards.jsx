@@ -8,7 +8,7 @@ const Cards = (props) => {
         <Container className="bg-light">
             <Row>
                 <Col md={4} className="text-center">
-                    <Card.Img variant="top" src={props.personaje.image} alt="personaje"/>
+                    <Card.Img variant="top" src={props.personaje.image} alt="personaje" />
                 </Col>
                 <Col md={8} className="text-center">
                     <Card.Body>
